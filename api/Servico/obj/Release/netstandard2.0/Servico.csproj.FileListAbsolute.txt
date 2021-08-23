@@ -1,0 +1,32 @@
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Servico\bin\Release\netstandard2.0\Servico.deps.json
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Servico\bin\Release\netstandard2.0\Servico.dll
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Servico\bin\Release\netstandard2.0\Servico.pdb
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Servico\bin\Release\netstandard2.0\Dominio.dll
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Servico\bin\Release\netstandard2.0\Infra.dll
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Servico\bin\Release\netstandard2.0\Persistencia.dll
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Servico\bin\Release\netstandard2.0\Dominio.pdb
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Servico\bin\Release\netstandard2.0\Infra.pdb
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Servico\bin\Release\netstandard2.0\Persistencia.pdb
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Servico\obj\Release\netstandard2.0\Servico.csprojAssemblyReference.cache
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Servico\obj\Release\netstandard2.0\Servico.AssemblyInfoInputs.cache
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Servico\obj\Release\netstandard2.0\Servico.AssemblyInfo.cs
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Servico\obj\Release\netstandard2.0\Servico.csproj.CoreCompileInputs.cache
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Servico\obj\Release\netstandard2.0\Servico.csproj.CopyComplete
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Servico\obj\Release\netstandard2.0\Servico.dll
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Servico\obj\Release\netstandard2.0\Servico.pdb
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Servico\bin\Release\netstandard2.0\Servico.deps.json
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Servico\bin\Release\netstandard2.0\Servico.dll
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Servico\bin\Release\netstandard2.0\Servico.pdb
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Servico\bin\Release\netstandard2.0\Dominio.dll
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Servico\bin\Release\netstandard2.0\Infra.dll
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Servico\bin\Release\netstandard2.0\Persistencia.dll
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Servico\bin\Release\netstandard2.0\Dominio.pdb
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Servico\bin\Release\netstandard2.0\Infra.pdb
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Servico\bin\Release\netstandard2.0\Persistencia.pdb
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Servico\obj\Release\netstandard2.0\Servico.csprojAssemblyReference.cache
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Servico\obj\Release\netstandard2.0\Servico.AssemblyInfoInputs.cache
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Servico\obj\Release\netstandard2.0\Servico.AssemblyInfo.cs
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Servico\obj\Release\netstandard2.0\Servico.csproj.CoreCompileInputs.cache
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Servico\obj\Release\netstandard2.0\Servico.csproj.CopyComplete
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Servico\obj\Release\netstandard2.0\Servico.dll
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Servico\obj\Release\netstandard2.0\Servico.pdb

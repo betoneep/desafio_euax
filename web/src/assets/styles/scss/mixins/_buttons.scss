@@ -1,0 +1,126 @@
+@mixin responsive-btn {
+  font-size: 1.2rem;
+  width: 2.3rem;
+  height: 2.3rem;
+
+  @include screen-size(md) {
+    font-size: 0.8rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  @include screen-size(sm) {
+    font-size: 0.8rem;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  @include screen-size(xs) {
+    font-size: 0.8rem;
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+}
+
+@mixin responsive-btn-sm {
+  font-size: 0.75rem;
+  width: 1.75rem;
+  height: 1.75rem;
+
+  // @include screen-size(md) {
+  //   font-size: 0.8rem;
+  //   width: 1.8rem;
+  //   height: 1.8rem;
+  // }
+
+  // @include screen-size(sm) {
+  //   font-size: 0.7rem;
+  //   width: 1.7rem;
+  //   height: 1.7rem;
+  // }
+
+  // @include screen-size(xs) {
+  //   font-size: 0.7rem;
+  //   width: 1.6rem;
+  //   height: 1.6rem;
+  // }
+}
+
+@mixin default-button {
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+
+  @content;
+}
+
+@mixin chat-button {
+  flex-wrap: nowrap;
+  white-space: normal;
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  font-size: 1rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  @content;
+  &:hover {
+    text-decoration: none;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+@mixin btn-outline {
+  @include default-button();
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  background: transparent;
+  border: none;
+  border-radius: 0.2rem;
+  transition: color 0.15s ease-in-out, text-shadow 0.15s ease-in-out;
+  @content;
+
+  &:hover {
+    text-shadow: $btn-text-shadow;
+    color: $blue-btn-text;
+    transition: color 0.15s ease-in-out, text-shadow 0.15s ease-in-out;
+  }
+}
+
+@mixin btn-text {
+  @include default-button();
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  color: $color-btn-text-1;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  border-radius: 0.2rem;
+
+  &:hover {
+    text-decoration: none;
+    text-shadow: $btn-text-shadow;
+    color: $blue-btn-text;
+    animation: none;
+    transition: color 0.15s ease-in-out, text-shadow 0.15s ease-in-out;
+  }
+
+  &--hover {
+    text-shadow: $btn-text-shadow;
+    color: $blue-btn-text;
+    animation: none;
+    transition: color 0.15s ease-in-out, text-shadow 0.15s ease-in-out;
+  }
+}

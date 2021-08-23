@@ -1,0 +1,48 @@
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Persistencia\bin\Debug\netstandard2.0\Persistencia.deps.json
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Persistencia\bin\Debug\netstandard2.0\Persistencia.dll
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Persistencia\bin\Debug\netstandard2.0\Persistencia.pdb
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Persistencia\bin\Debug\netstandard2.0\Dominio.dll
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Persistencia\bin\Debug\netstandard2.0\Dominio.pdb
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Persistencia\obj\Debug\netstandard2.0\Persistencia.csprojAssemblyReference.cache
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfoInputs.cache
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfo.cs
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Persistencia\obj\Debug\netstandard2.0\Persistencia.csproj.CoreCompileInputs.cache
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Persistencia\obj\Debug\netstandard2.0\Persistencia.csproj.CopyComplete
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Persistencia\obj\Debug\netstandard2.0\Persistencia.dll
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Persistencia\obj\Debug\netstandard2.0\Persistencia.pdb
+X:\Projetos Git\Desafio EUAX\api_euax\Persistencia\bin\Debug\netstandard2.0\Persistencia.deps.json
+X:\Projetos Git\Desafio EUAX\api_euax\Persistencia\bin\Debug\netstandard2.0\Persistencia.dll
+X:\Projetos Git\Desafio EUAX\api_euax\Persistencia\bin\Debug\netstandard2.0\Persistencia.pdb
+X:\Projetos Git\Desafio EUAX\api_euax\Persistencia\bin\Debug\netstandard2.0\Dominio.dll
+X:\Projetos Git\Desafio EUAX\api_euax\Persistencia\bin\Debug\netstandard2.0\Dominio.pdb
+X:\Projetos Git\Desafio EUAX\api_euax\Persistencia\obj\Debug\netstandard2.0\Persistencia.csprojAssemblyReference.cache
+X:\Projetos Git\Desafio EUAX\api_euax\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfoInputs.cache
+X:\Projetos Git\Desafio EUAX\api_euax\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfo.cs
+X:\Projetos Git\Desafio EUAX\api_euax\Persistencia\obj\Debug\netstandard2.0\Persistencia.csproj.CoreCompileInputs.cache
+X:\Projetos Git\Desafio EUAX\api_euax\Persistencia\obj\Debug\netstandard2.0\Persistencia.csproj.CopyComplete
+X:\Projetos Git\Desafio EUAX\api_euax\Persistencia\obj\Debug\netstandard2.0\Persistencia.dll
+X:\Projetos Git\Desafio EUAX\api_euax\Persistencia\obj\Debug\netstandard2.0\Persistencia.pdb
+X:\Projetos Git\Desafio EUAX\api\api_euax\Persistencia\bin\Debug\netstandard2.0\Persistencia.deps.json
+X:\Projetos Git\Desafio EUAX\api\api_euax\Persistencia\bin\Debug\netstandard2.0\Persistencia.dll
+X:\Projetos Git\Desafio EUAX\api\api_euax\Persistencia\bin\Debug\netstandard2.0\Persistencia.pdb
+X:\Projetos Git\Desafio EUAX\api\api_euax\Persistencia\bin\Debug\netstandard2.0\Dominio.dll
+X:\Projetos Git\Desafio EUAX\api\api_euax\Persistencia\bin\Debug\netstandard2.0\Dominio.pdb
+X:\Projetos Git\Desafio EUAX\api\api_euax\Persistencia\obj\Debug\netstandard2.0\Persistencia.csprojAssemblyReference.cache
+X:\Projetos Git\Desafio EUAX\api\api_euax\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfoInputs.cache
+X:\Projetos Git\Desafio EUAX\api\api_euax\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfo.cs
+X:\Projetos Git\Desafio EUAX\api\api_euax\Persistencia\obj\Debug\netstandard2.0\Persistencia.csproj.CoreCompileInputs.cache
+X:\Projetos Git\Desafio EUAX\api\api_euax\Persistencia\obj\Debug\netstandard2.0\Persistencia.csproj.CopyComplete
+X:\Projetos Git\Desafio EUAX\api\api_euax\Persistencia\obj\Debug\netstandard2.0\Persistencia.dll
+X:\Projetos Git\Desafio EUAX\api\api_euax\Persistencia\obj\Debug\netstandard2.0\Persistencia.pdb
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Persistencia\bin\Debug\netstandard2.0\Persistencia.deps.json
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Persistencia\bin\Debug\netstandard2.0\Persistencia.dll
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Persistencia\bin\Debug\netstandard2.0\Persistencia.pdb
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Persistencia\bin\Debug\netstandard2.0\Dominio.dll
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Persistencia\bin\Debug\netstandard2.0\Dominio.pdb
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Persistencia\obj\Debug\netstandard2.0\Persistencia.csprojAssemblyReference.cache
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfoInputs.cache
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Persistencia\obj\Debug\netstandard2.0\Persistencia.AssemblyInfo.cs
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Persistencia\obj\Debug\netstandard2.0\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Persistencia\obj\Debug\netstandard2.0\Persistencia.csproj.CopyComplete
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Persistencia\obj\Debug\netstandard2.0\Persistencia.dll
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Persistencia\obj\Debug\netstandard2.0\Persistencia.pdb

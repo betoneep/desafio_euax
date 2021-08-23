@@ -1,0 +1,7 @@
+.text-black {
+  color: $black !important;
+}
+
+.text-truncated {
+  @include text-truncated();
+}

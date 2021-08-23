@@ -1,0 +1,15 @@
+.flex-center-column {
+  @include flex-center-column();
+}
+
+.flex-center-row {
+  @include flex-center-row();
+}
+
+.content-center {
+  @include content-center();
+}
+
+.content-grow {
+  flex-grow: 1;
+}

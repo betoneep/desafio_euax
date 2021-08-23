@@ -1,0 +1,96 @@
+@mixin screen-xs {
+  @media (min-width: $break-xs) {
+    @content;
+  }
+}
+
+@mixin screen-sm {
+  @media (min-width: $break-sm) {
+    @content;
+  }
+}
+
+@mixin screen-md {
+  @media (min-width: $break-md) {
+    @content;
+  }
+}
+
+@mixin screen-lg {
+  @media (min-width: $break-lg) {
+    @content;
+  }
+}
+
+@mixin screen-size($breakpoint) {
+  @if $breakpoint == xs {
+    // 576
+    @media only screen and (max-width: $break-xs) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == sm {
+    // 768
+    @media only screen and (max-width: $break-sm) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == md {
+    // 900
+    @media only screen and (max-width: $break-md) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == md1 {
+    // 1050 $break-md1
+    @media only screen and (max-width: $break-md1) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == lg {
+    //1400
+    @media only screen and (max-width: $break-lg) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == xl {
+    @media only screen and (max-width: $break-xl) {
+      @content;
+    }
+  }
+}
+
+@mixin yscreen-size($breakpoint) {
+  @if $breakpoint == lg {
+    //1400
+    @media only screen and (max-height: $ybreak-lg) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == md {
+    // 900
+    @media only screen and (max-height: $ybreak-md) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == sm {
+    // 768
+    @media only screen and (max-height: $ybreak-sm) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == xs {
+    // 576
+    @media only screen and (max-height: $ybreak-xs) {
+      @content;
+    }
+  }
+}

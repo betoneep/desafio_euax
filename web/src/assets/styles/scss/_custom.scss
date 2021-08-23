@@ -1,0 +1,56 @@
+// Here you can add other styles
+// $theme-colors: (
+//   "primary": #24d900,
+//   "danger": #ff4136
+// );
+// .c-sidebar-nav-link {
+//   color: #777777 !important;
+//   font-weight: 600;
+//   &:hover,
+//   &:hover > .c-sidebar-nav-icon {
+//     color: #2c2c2c !important;
+//   }
+// }
+// .c-sidebar-nav-icon {
+//   color: #777777 !important;
+// }
+// .c-sidebar-nav {
+//     border: #777777 1px solid;
+// }
+
+.c-subheader {
+  min-height: 2.5rem;
+  height: 2.5rem;
+}
+
+.modal-backdrop {
+  // background do modal bootstrap
+  background-color: #0000155e;
+}
+
+.c-main {
+  @include screen-size(md) {
+    padding: 0.1rem !important;
+    margin: 0.1rem !important;
+  }
+}
+
+.container-fluid {
+  @include screen-size(md) {
+    padding: 0rem !important;
+    margin: 0.1rem !important;
+  }
+}
+
+.card {
+  @include screen-size(md) {
+    padding: 0.2rem;
+    margin: 0.2rem;
+  }
+}
+
+.card-body {
+  @include screen-size(md) {
+    padding: 0.3rem;
+  }
+}

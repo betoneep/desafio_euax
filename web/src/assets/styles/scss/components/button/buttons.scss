@@ -1,0 +1,56 @@
+.btn-square {
+  @include chat-button;
+  border: transparent;
+  @include responsive-btn();
+
+  &:hover {
+    color: $white-1;
+    box-shadow: $shadow-btn-1;
+  }
+}
+
+.btn-square-sm {
+  @include flex-center-row();
+  @include content-center;
+  @include chat-button() {
+    padding: 0.25rem;
+  }
+  border: none;
+  @include responsive-btn-sm();
+
+  &:hover {
+    color: $white-1;
+    box-shadow: $shadow-btn-1;
+  }
+}
+
+.btn-text {
+  @include btn-text();
+  @include responsive-btn();
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.btn-outline {
+  @include chat-button();
+  @include responsive-btn();
+  background-color: transparent;
+  border: 1px solid transparent;
+
+  &:hover {
+    color: $blue-btn-text;
+    text-shadow: 2px 2px 4px rgba(0, 0, 21, 0.3);
+  }
+}
+
+.btn-rounded {
+  border-radius: 0.25rem;
+}
+
+.btn-greybase {
+  color: $gray-900;
+}
+
+.bg-greybase {
+  background-color: $gray-900;
+}

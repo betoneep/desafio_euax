@@ -1,0 +1,57 @@
+@media print {
+  .c-body {
+    overflow-y: visible !important;
+  }
+
+  //   [class^="col-"] {
+  //     padding: 0.1rem;
+  //   }
+  .c-app,
+  body {
+    background-color: #fff !important;
+  }
+
+  .c-main {
+    margin: 0 !important;
+  }
+
+  .row {
+    margin: 0 !important;
+  }
+
+  .container-fluid {
+    padding: 0 !important;
+  }
+
+  .card {
+    margin: 0.1rem 0.2rem 1.5rem 0.2rem !important;
+  }
+
+  .card-body {
+    padding: 0 !important;
+  }
+
+  table {
+    page-break-inside: auto;
+  }
+
+  tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+    // padding: 0.1rem 1rem 0.1rem 1rem !important;
+  }
+
+  td {
+    padding: 0.1rem 0.3rem 0.1rem 0.3rem !important;
+  }
+
+  .table th,
+  .table td {
+    padding: 0;
+  }
+
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+}

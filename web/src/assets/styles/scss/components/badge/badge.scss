@@ -1,0 +1,50 @@
+.sbadge {
+  display: flex;
+  padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+  @include text-truncated();
+  font-size: 75%;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  &--info {
+    color: white;
+    background-color: var(--info);
+  }
+  &--warning {
+    color: white;
+    background-color: var(--warning);
+  }
+  &--success {
+    color: white;
+    background-color: var(--success);
+  }
+  &--danger {
+    color: white;
+    background-color: var(--danger);
+  }
+
+  &--rounded {
+    border-radius: 100%;
+  }
+}
+
+.scircle {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 100%;
+  &--info {
+    color: white;
+    background-color: var(--info);
+  }
+  &--warning {
+    color: white;
+    background-color: var(--warning);
+  }
+  &--success {
+    color: white;
+    background-color: var(--success);
+  }
+  &--danger {
+    color: white;
+    background-color: var(--danger);
+  }
+}

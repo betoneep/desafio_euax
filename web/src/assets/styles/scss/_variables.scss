@@ -1,0 +1,356 @@
+@import "~@coreui/coreui/scss/_mixins.scss";
+
+//Breakpoint do screen size
+$break-xs: 576px;
+$break-sm: 768px;
+$break-md: 900px;
+$break-md1: 1050px;
+$break-lg: 1400px;
+$break-xl: 1800px;
+
+$ybreak-xs: 500px;
+$ybreak-sm: 680px;
+$ybreak-md: 780px;
+$ybreak-lg: 920px;
+
+$blue-btn-text: #2469ff;
+$color-btn-text-1: #4f5c72;
+$grey-base: #3c4b64;
+$base-color-shadow: rgb(0, 0, 21);
+
+$text-shadow-1: rgba($base-color-shadow, 0.3);
+$text-shadow-2: rgba($base-color-shadow, 0.445);
+$btn-text-shadow: 2px 2px 4px $text-shadow-1;
+
+$shadow-color-0: rgba($base-color-shadow, 0.08);
+$shadow-color-1: rgba($base-color-shadow, 0.1);
+$shadow-color-3: rgba($base-color-shadow, 0.3);
+$shadow-color-4: rgba($base-color-shadow, 0.4);
+
+$shadow-content-1: 2px 0px 3px 3px $shadow-color-1;
+$shadow-content-2: 2px 2px 10px $shadow-color-3;
+
+$white-1: #f5f5f5;
+$text-color-1: #768192;
+$smooth-grey-1: #f8f8f8;
+$smooth-grey-2: #f1f1f1;
+$smooth-grey-3: #e2e2e2;
+$smooth-grey-4: #cfcfcf;
+$grey-light-1: #b1b1b1;
+$grey-light-2: #a0a0a0;
+$grey-darker-1: rgb(131, 131, 131);
+
+$blue-highlight-1: #0d63f4;
+
+$shadow-1: 1px 1px 5px 2px $shadow-color-3;
+$shadow-2: 0px 3px 2px 1px $shadow-color-0;
+$shadow-top-1: 0px -7px 5px -1px $shadow-color-0;
+$shadow-top-left: -1px -1px 5px 0px $shadow-color-4;
+
+$shadow-btn-1: 1px 1px 5px 1px $shadow-color-4;
+$shadow-btn-outline: 2px 2px 4px $shadow-color-3;
+
+$blueish-grey-1: #4d9ec380;
+$greenish-grey-1: #535353;
+
+$btn-text-shadow: 2px 2px 4px $text-shadow-1;
+$btn-glow-shadow: 0 0 0 0.2rem $blueish-grey-1;
+$btn-glow-shadow-disabled: 0 0 0 0.2rem rgba(45, 56, 61, 0.103);
+
+///// ChatDropDown.vue Variables ///////////////
+$chatdropdown-color-btn-1: #3c4b64;
+$chatdropdown-color-btn-2: #556786da;
+$chatdropdown-color-btn-3: #5b749eb2;
+$chatdropdown-color-btn-border: rgba(64, 71, 134, 0.692);
+
+$chatdropdown-color-animation-1: rgba(255, 255, 255, 0.1);
+$chatdropdown-color-animation-2: rgba(3, 117, 248, 0.199);
+$chatdropdown-color-animation-3: rgba(255, 255, 255, 0.1);
+/////// End ChatDropDown.vue Variables ////////////
+
+$z-index-chat-scrollbar: 499;
+$z-index-chat-header: 501;
+$z-index-chat-messages: 500;
+$z-index-chat-footer: 502;
+$z-index-chat-footer-content: 503;
+
+//#################### variaveis do CORE - UI / Bootstrap para substituir caso preciso
+
+// //
+// // CoreUI default colors
+// //
+// $body-color: #000015;
+
+// $white: #fff !default;
+// $black: #000015 !default;
+
+// // $black:     #000 !default;
+// // $black:     #000b24 !default;
+
+// // $gray-base: #212233 !default;
+
+// // $gray-100:  #e9e9eb !default;
+// // $gray-200:  #d3d3d6 !default;
+// // $gray-300:  #bcbdc2 !default;
+// // $gray-400:  #a6a7ad !default;
+// // $gray-500:  #909099 !default;
+// // $gray-600:  #7a7a85 !default;
+// // $gray-700:  #646470 !default;
+// // $gray-800:  #4d4e5c !default;
+// // $gray-900:  #373847 !default;
+
+// $gray-base: #535455 !default;
+
+// // $gray-100:  #ebedef !default;
+// // $gray-200:  #d8dbe0 !default;
+// // $gray-300:  #c4c9d0 !default;
+// // $gray-400:  #b1b7c1 !default;
+// // $gray-500:  #9da5b1 !default;
+// // $gray-600:  #8a93a2 !default;
+// // $gray-700:  #768192 !default;
+// // $gray-800:  #636f83 !default;
+// // $gray-900:  #4f5d73 !default; // body collor
+
+// // $gray-100: #efefeb !default;
+// // $gray-200: #dfe0d8 !default;
+// // $gray-300: #d0d0c4 !default;
+// // $gray-400: #c1c1b1 !default;
+// // $gray-500: #b0b19d !default;
+// // $gray-600: #a0a28a !default;
+// // $gray-700: #8e9276 !default;
+// // $gray-800: #838363 !default;
+// // $gray-900: #73724f !default; // body collor
+
+// $gray-100: #f1f1f1 !default;
+// $gray-200: #e0e0e0 !default;
+// $gray-300: #d4d4d4 !default;
+// $gray-400: #c7c7c7 !default;
+// $gray-500: #b1b1b1 !default;
+// $gray-600: #a7a7a7 !default;
+// $gray-700: #949494 !default;
+// $gray-800: #777777 !default;
+// $gray-900: #5e5e5e !default; // body collor
+
+// $grays: () !default;
+// // stylelint-disable-next-line scss/dollar-variable-default
+// $grays: map-merge(
+//   (
+//     "100": $gray-100,
+//     "200": $gray-200,
+//     "300": $gray-300,
+//     "400": $gray-400,
+//     "500": $gray-500,
+//     "600": $gray-600,
+//     "700": $gray-700,
+//     "800": $gray-800,
+//     "900": $gray-900
+//   ),
+//   $grays
+// );
+
+// $primary-base: #321fdb !default;
+
+// $primary-100: #ffffe6 !default;
+// $primary-200: #ffffcc !default;
+// $primary-300: #ffffb3 !default;
+// $primary-400: #ffff99 !default;
+// $primary-500: #ffff80 !default;
+// $primary-600: #ffff66 !default;
+// $primary-700: #ffff4d !default;
+// $primary-800: #ffff33 !default;
+// $primary-900: #ffff1a !default;
+
+// // #ffffe6
+// // ##ffff00
+// // #ffffb3
+// // #ffff99
+// // #ffff80
+// // #ffff66
+// // #ffff4d
+// // #ffff33
+// // #ffff1a
+// // #ffff00
+
+// $primary-dark: #8f9814 !default;
+// // $primary: #dbb91f !default;
+// $primary: #4355bd !default;
+// $primary-50: #e3ed8f !default;
+// $primary-25: #f5f6c7 !default;
+
+// // $primary-dark: #988f14 !default;
+// // $primary: #dbb91f !default;
+// // $primary-50: #050503 !default;
+// // $primary-25: #f5f6c7 !default;
+
+// $secondary-base: #3c4b64 !default;
+
+// $secondary-100: #efefeb !default;
+// $secondary-200: #dfe0d8 !default;
+// $secondary-300: #d0d0c4 !default;
+// $secondary-400: #c1c1b1 !default;
+// $secondary-500: #b0b19d !default;
+// $secondary-600: #a0a28a !default;
+// $secondary-700: #8e9276 !default;
+// $secondary-800: #838363 !default;
+// $secondary-900: #73724f !default;
+
+// $secondary-dark: #333321 !default;
+// $secondary: #64613c !default;
+// $secondary-50: #b1b19d !default;
+// $secondary-25: #d8d8ce !default;
+
+// $danger-dark: #d93737 !default;
+// $danger: #e55353 !default;
+// $danger-50: #f2a9a9 !default;
+// $danger-25: #f9d4d4 !default;
+
+// $info-dark: #2982cc !default;
+// // $info: #39f !default;
+// $info: #4e96da !default;
+// $info-50: #80c6ff !default;
+// $info-25: #c0e6ff !default;
+
+// $success-dark: #1b9e3e !default;
+// // $success: #2eb85c !default;
+// $success: #35a335 !default;
+// $success-50: #96dbad !default;
+// $success-25: #cbedd6 !default;
+
+// $warning-dark: #f6960b !default;
+// $warning: #f9b115 !default;
+// $warning-50: #fcd88a !default;
+// $warning-25: #feecc5 !default;
+
+// $light: $gray-100 !default;
+// $dark: $gray-800 !default;
+
+// $pink: #e83e8c !default;
+
+// $theme-colors: () !default;
+// // stylelint-disable-next-line scss/dollar-variable-default
+// $theme-colors: map-merge(
+//   (
+//     "primary": $primary,
+//     "secondary": $secondary-25,
+//     "success": $success,
+//     "info": $info,
+//     "warning": $warning,
+//     "danger": $danger,
+//     "light": $light,
+//     "dark": $dark
+//   ),
+//   $theme-colors
+// );
+
+// // Set a specific jump point for requesting color jumps
+// $theme-color-interval: 8% !default;
+
+// // The yiq lightness value that determines when the lightness of color changes from "dark" to "light". Acceptable values are between 0 and 255.
+// $yiq-contrasted-threshold: 150 !default;
+
+// // Customize the light and dark text colors for use in our YIQ color contrast function.
+// $yiq-text-dark: $gray-900 !default;
+// $yiq-text-light: $white !default;
+
+// $default-themes: () !default;
+// // stylelint-disable-next-line scss/dollar-variable-default
+// $default-themes: map-merge(
+//   (
+//     default: (
+//       "default": true,
+//       "theme-colors": $theme-colors,
+//       "grays": $grays
+//     )
+//   ),
+//   $default-themes
+// );
+
+// $border-color: $gray-200 !default;
+// $nav-tabs-boxed-content-border-color: $border-color !default;
+
+// $component-color: $body-color !default;
+// $component-bg: $white !default;
+
+// $component-active-color: $white !default;
+
+// $body-bg: $gray-100 !default; // was: $white
+// $body-color: $gray-900 !default;
+
+// $body-theme-map: () !default;
+// // stylelint-disable-next-line scss/dollar-variable-default
+// $body-theme-map: map-merge(
+//   (
+//     default: (
+//       "body-bg": $body-bg,
+//       "body-color": $gray-base
+//     )
+//   ),
+//   $body-theme-map
+// );
+
+// // $nav-link-padding-y: 0.5rem !default;
+// // $nav-link-padding-x: 1rem !default;
+
+// // $nav-tabs-border-width: $border-width !default;
+// // $nav-tabs-border-radius: $border-radius !default;
+
+// // $nav-tabs-boxed-content-padding-y: 0.75rem !default;
+// // $nav-tabs-boxed-content-padding-x: 1.25rem !default;
+// // $nav-tabs-boxed-content-border-width: $border-width !default;
+
+// // $nav-pills-border-radius: $border-radius !default;
+
+// // $nav-divider-margin-y: $spacer / 2 !default;
+
+// // Light Theme
+// $component-active-bg: $primary;
+
+// $input-btn-focus-color: rgba($component-active-bg, 0.25) !default;
+
+// $nav-link-disabled-color: $gray-600 !default;
+// $nav-tabs-border-color: $gray-300 !default;
+// $nav-tabs-link-hover-border-color: $gray-200 $gray-200 $nav-tabs-border-color !default;
+// $nav-tabs-link-active-color: $gray-700 !default;
+// $nav-tabs-link-active-bg: $body-bg !default;
+// $nav-tabs-link-active-border-color: $gray-300 $gray-300 $nav-tabs-link-active-bg !default;
+
+// $nav-tabs-boxed-link-active-bg: $white !default;
+// $nav-tabs-boxed-content-bg: $white !default;
+// // $nav-tabs-boxed-content-border-color: $border-color !default;
+// // $nav-tabs-boxed-content-border-radius: $border-radius !default;
+
+// $nav-tabs-boxed-left-active-border-color: $border-color $white $border-color
+//   $border-color !default;
+// $nav-tabs-boxed-right-active-border-color: $border-color $border-color
+//   $border-color $white !default;
+
+// $nav-pills-link-active-color: $component-active-color !default;
+// $nav-pills-link-active-bg: $component-active-bg !default;
+// $nav-divider-color: $gray-200 !default;
+
+// $nav-theme-map: () !default;
+// // stylelint-disable-next-line scss/dollar-variable-default
+// $nav-theme-map: map-merge(
+//   (
+//     default: (
+//       "nav-link-disabled-color": $nav-link-disabled-color,
+//       "nav-tabs-border-color": $nav-tabs-border-color,
+//       "nav-tabs-link-hover-border-color": $nav-tabs-link-hover-border-color,
+//       "nav-tabs-link-active-color": $nav-tabs-link-active-color,
+//       "nav-tabs-link-active-bg": $nav-tabs-link-active-bg,
+//       "nav-tabs-link-active-border-color": $nav-tabs-link-active-border-color,
+//       "nav-pills-link-active-color": $nav-pills-link-active-color,
+//       "nav-pills-link-active-bg": $nav-pills-link-active-bg,
+//       "nav-divider-color": $nav-divider-color,
+//       "nav-tabs-boxed-link-active-bg": $nav-tabs-boxed-link-active-bg,
+//       "nav-tabs-boxed-content-bg": $nav-tabs-boxed-content-bg,
+//       "nav-tabs-boxed-content-border-color":
+//         $nav-tabs-boxed-content-border-color,
+//       "nav-tabs-boxed-left-active-border-color":
+//         $nav-tabs-boxed-left-active-border-color,
+//       "nav-tabs-boxed-right-active-border-color":
+//         $nav-tabs-boxed-right-active-border-color
+//     )
+//   ),
+//   $nav-theme-map
+// );

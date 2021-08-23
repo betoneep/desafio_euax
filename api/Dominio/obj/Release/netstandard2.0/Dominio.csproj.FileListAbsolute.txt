@@ -1,0 +1,18 @@
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Dominio\bin\Release\netstandard2.0\Dominio.deps.json
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Dominio\bin\Release\netstandard2.0\Dominio.dll
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Dominio\bin\Release\netstandard2.0\Dominio.pdb
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Dominio\obj\Release\netstandard2.0\Dominio.csprojAssemblyReference.cache
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Dominio\obj\Release\netstandard2.0\Dominio.AssemblyInfoInputs.cache
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Dominio\obj\Release\netstandard2.0\Dominio.AssemblyInfo.cs
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Dominio\obj\Release\netstandard2.0\Dominio.csproj.CoreCompileInputs.cache
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Dominio\obj\Release\netstandard2.0\Dominio.dll
+X:\Projetos Git\Projeto Cooperar\api-cooperar\Dominio\obj\Release\netstandard2.0\Dominio.pdb
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Dominio\bin\Release\netstandard2.0\Dominio.deps.json
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Dominio\bin\Release\netstandard2.0\Dominio.dll
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Dominio\bin\Release\netstandard2.0\Dominio.pdb
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Dominio\obj\Release\netstandard2.0\Dominio.csprojAssemblyReference.cache
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Dominio\obj\Release\netstandard2.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Dominio\obj\Release\netstandard2.0\Dominio.AssemblyInfo.cs
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Dominio\obj\Release\netstandard2.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Dominio\obj\Release\netstandard2.0\Dominio.dll
+C:\Users\david\Source\Repos\betoneep\EUAX\api\Dominio\obj\Release\netstandard2.0\Dominio.pdb

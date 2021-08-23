@@ -1,0 +1,19 @@
+@mixin default-scrollbar {
+  scrollbar-color: rgba(50, 43, 80, 0.5) rgba(255, 255, 255, 0.1);
+  scrollbar-width: thin;
+  scroll-margin: 0.5rem 0 0.5rem 0;
+  scroll-padding: 1rem;
+  @content;
+}
+
+@mixin default-scrollbar-y {
+  overflow-y: auto !important;
+  overflow-x: hidden;
+  @content;
+}
+
+@mixin default-scrollbar-x {
+  overflow-x: auto !important;
+  overflow-y: hidden;
+  @content;
+}
